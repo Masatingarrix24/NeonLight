@@ -1,0 +1,64 @@
+
+@media screen and (max-width: 736px) {
+	.cd-fixed-bg {
+		background-size: cover;
+		background-attachment: scroll;
+	}
+}
+
+.maintop {
+  background-color: black;
+  background-image: url(../NeonImg/Neon5.jpeg);
+}
+
+/*--一部省略--*/
+/*--固定背景の設定--*/
+div {
+    box-sizing: border-box;
+    color: #FFF;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 5%;
+  }
+  
+  
+  .cd-fixed h2 {
+      font-family: 'Impact';
+      font-size: 55px;
+      text-align: center;
+  }
+  
+  .cd-fixed-bg {
+      position: relative;
+      min-height: 800px;
+      width: 100%;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center center;
+      z-index: 2;
+  }
+  
+  /*--固定背景01--*/
+  .cd-fixed-bg.cd-bg-1  {
+    background-image: url('../NeonImg/Neon4.jpeg');
+  }
+  
+  /*--固定背景02--*/
+  .cd-fixed-bg.cd-bg-2  {
+    background-image: url('../NeonImg/Neon1.jpeg');
+  }
+  
+  /*--固定背景03--*/
+  .cd-fixed-bg.cd-bg-3  {
+    background-image: url('../NeonImg/Neon2.png');
+  }
+  
+  /*--固定背景04--*/
+  .cd-fixed-bg.cd-bg-4  {
+    background-image: url('画像パス');
+  }
+  
